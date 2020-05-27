@@ -81,28 +81,28 @@ Fruit.insertMany([kiwi,banana,orange],function(err){
 // data for the peoples collections (3 data)
 //first data
 const people = new People ({
-	Name:"Aditya Shakya",
+	Name:"people1name",
 	Age:28,
-	Email:"aditya@gmail.com"
+	Email:"people1name@gmail.com"
 });
 //people.save();
 // more data on peoples collection
 const people1 = new People ({
-	Name:"Vishal Shakya",
+	Name:"people1name",
 	Age:20,
-	Email:"vishalshakya@gmail.com"
+	Email:"people1name@gmail.com"
 });
 const people2 = new People ({
-	Name:"Shivam Shakya",
+	Name:"people1name",
 	Age:23,
-	Email:"shivamshakya@gmail.com"
+	Email:"people1name@gmail.com"
 });
 
 //3)lets create a new document of people with relation
 const person = new People({
-	Name:"Lallu Yadav",
+	Name:"people1name",
 	Age:12,
-	Email:'lallu@gmail.com',
+	Email:'people1name@gmail.com',
 	// 4) establishing the relationships
 	favouriteFruit:banana
 })
